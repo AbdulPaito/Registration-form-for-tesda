@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+       .page {
+            max-width: 800px; /* Adjust maximum width to fit content */
+            border: 1pt solid black; /* 1 point border on all sides */
+            padding: 20px; /* Increased padding for better spacing */
+            margin: 0 auto; /* Center the div horizontally */
+        
+        }
+
+        h2, h3 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 8px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+        .box {
+         width: 150px;
+         height: 100px;
+         border: 1px solid black;
+         text-align: center;
+         font-size: 10px;
+         padding: 2px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         float: right;
+
+        }.picture-box {
+          text-align: right;
+        }
+
+        th {
+            background-color: lightgreen;
+            text-align: center;
+            color:black;
+            border-bottom: none;
+        }
+
+        tr:nth-child(even) {
+            background-color: white;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 16px); /* Adjusted width to account for padding and border */
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h2>Technical Education and Skills Development Authority</h2>
+        <p>Pangasiwaan sa Edukasyong Teknikal at Pagpapaunlad ng Kasanayan</p>
+        
+        <h3>Registration Form</h3>
+        
+        <table>
+            <tr>
+                <th colspan="2">LEARNERS PROFILE FORM</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="picture-box"><div class="box">ID. Picture</div></td>
+            </tr>
+            <tr>
+                <td>1. T2MIS Auto Generated</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.1. Unique Learner Identifier (ULI) Number:</td>
+                <td><input type="text" size="20"></td>
+            </tr>
+            <tr>
+                <td>1.2. Entry Date:</td>
+                <td><input type="text" size="10" placeholder="mm/dd/yy"></td>
+            </tr>
+            <tr>
+                <td>2. Learner/Manpower Profile</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.1. Name:</td>
+                <td><input type="text" size="15" placeholder="Last Name,Extension Name (Jr., Sr.)"> <input type="text" size="15" placeholder="First Name"> <input type="text" size="15" placeholder="Middle Name"></td>
+            </tr>
+            <tr>
+                <td>2.2. Complete Permanent Mailing Address:</td>
+                <td>
+                    <input type="text" size="20" placeholder="Number, Street"><br>
+                    <input type="text" size="20" placeholder="Barangay"><br>
+                    <input type="text" size="20" placeholder="District"><br>
+                    <input type="text" size="20" placeholder="City/Municipality"><br>
+                    <input type="text" size="20" placeholder="Province"><br>
+                    <input type="text" size="20" placeholder="Region"><br>
+                    <input type="text" size="20" placeholder="Email Address/Facebook Account:"><br>
+                    <input type="text" size="20" placeholder="Contact No:"><br>
+                    <input type="text" size="20" placeholder="Nationality">
+                </td>
+            </tr>
+            <tr>
+                <td>3. Personal Information</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.1. Sex</td>
+                <td>3.2. Civil Status</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Male</td>
+                <td><input type="checkbox"> Single</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Female</td>
+                <td><input type="checkbox"> Married</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox"> Widow/er</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox"> Separated</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox"> Solo Parent</td>
+            </tr>
+            <tr>
+                <td>3.3. Employment Status (before the training)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Employed</td>
+                <td><input type="checkbox"> Unemployed</td>
+            </tr>
+            <tr>
+                <td>3.4. Birthdate</td>
+                <td><input type="text" size="10" placeholder="Month of Birth"> <input type="text" size="10" placeholder="Day of Birth"> <input type="text" size="10" placeholder="Year of Birth"><input type="text" size="10" placeholder="Age"></td>
+            </tr>
+            <tr>
+                <td>3.5. Birthplace</td>
+                <td><input type="text" size="20" placeholder="City/Municipality"> <input type="text" size="20" placeholder="Province"> <input type="text" size="20" placeholder="Region"></td>
+            </tr>
+            <tr>
+                <td>3.6. Educational Attainment Before the Training (Trainee)</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> No Grade Completed</td>
+                <td><input type="checkbox"> Pre-School (Nursery/Kinder/Prep)</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Elementary Undergraduate</td>
+                <td><input type="checkbox"> Post Secondary Undergraduate</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Elementary Graduate</td>
+                <td><input type="checkbox"> Post Secondary Graduate</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> High School Undergraduate</td>
+                <td><input type="checkbox"> High School Graduate</td>
+                
+            </tr>
+            <tr>
+               <td><input type="checkbox"> College Undergraduate</td>
+                <td><input type="checkbox"> College Graduate or Higher</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Junior High Graduate</td>
+                <td><input type="checkbox"> Senior High Graduate</td>
+            </tr>
+            <tr>
+                <td>3.7. Parent/Guardian</td>
+                <td><input type="text" size="20" placeholder="Name"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" size="50" placeholder="Complete Permanent Mailing Address"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
